@@ -18,12 +18,25 @@
 
 ## 🚀 Installation
 
-### Option 1: Homebrew (Recommended)
+### 1. Homebrew 
 Install JotBar via Terminal using the official Tap:
 
 ```bash
 brew install wingedpanther/tap/jotbar
 ```
-Requires Gatekeeper bypass. 
+Note: Since the app is currently self-signed, if you encounter a "developer cannot be verified" error, do the following:. 
 
 <img width="1062" height="611" alt="jotbar_gatekeeper_bypass" src="https://github.com/user-attachments/assets/e34c56d6-5cd1-457e-ae44-2923b823903f" />
+
+### 2. Direct Download
+- Get the latest version from https://github.com/wingedpanther/JotBar/releases
+- Drag JotBar.app into your Applications folder.
+- Right-click the app and select Open for the first launch to bypass macOS Gatekeeper.
+
+## 🛠 Tech Stack
+- Language: Swift 5.10
+- Framework: SwiftUI
+- Persistence: UserDefaults (JSON Encoding)
+- Notifications: UserNotifications Framework
+- Architecture: Organized into Models, Views, and Extensions for scalability.
+
